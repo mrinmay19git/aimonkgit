@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tree-node {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tag-header {
+    display: flex;
+    align-items: center;
+}
+
+.tag-name {
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+}
+
+.collapse-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.collapsed>.child-list {
+    display: none;
+}
+
+.add-child-button {
+    margin-top: 5px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.data-input {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#export-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#toggle-child1-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
